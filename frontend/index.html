@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+	<p>
+		Consumo de REST.API de Producto
+	</p>
+
+	<div>
+		<label>Nombre </label>
+		<input type="text" id="nombre">
+	</div>
+
+	<div>
+		<label>Precio </label>
+		<input type="text" id="precio">
+	</div>
+
+	<div>
+		<label>Descripcion </label>
+		<input tupe="text" id="descripcion">
+	</div>
+
+	<div>
+		<label>URL </label>
+		<input tupe="text" id="url">
+	</div>
+
+	<button onclick="postProducto()"> POST Producto </button>
+
+	<button onclick="getProducto()"> GET Producto </button>
+
+	<div id="resultado"></div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="callrestapi.js"></script>
+
+</body>
+
+</html>
+
